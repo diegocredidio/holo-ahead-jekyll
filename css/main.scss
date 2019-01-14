@@ -329,7 +329,7 @@ body {
   text-transform: uppercase;
   margin-top: 2rem;
 }
-.landing-phones {
+.landing-phones, .landing-email {
   margin-top: 50px;
   color: white;
   font-size: calc(20px + (26 - 20) * ((100vw - 300px) / (1600 - 300)));
