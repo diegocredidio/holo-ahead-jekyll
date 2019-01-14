@@ -1,0 +1,21 @@
+<div
+  class="page-header"
+  style="background-image: url(..{{page.head_image}});"
+>
+  <div style="height: 100%; background-color: rgba(0,0,0,0.2);">
+    <div
+      class="page-header-container flex-column d-flex h-100 mx-auto align-content-center justify-content-center"
+    >
+      <div class="page-header-text px-3">
+        <div class="page-header-heading d-flex justify-content-center">
+          <span> {{ page.titulo }} </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-content my-5">
+  <div class="container">
+        {{ page.text | markdownify}} 
+  </div>
+</div>

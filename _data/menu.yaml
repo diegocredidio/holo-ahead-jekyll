@@ -1,0 +1,12 @@
+docs_list_title: Navigation Menu
+navs:
+  - title: Início
+    url: "/"
+    type: default
+  - title: Sobre
+    url: "/sobre"
+    type: default
+  - title: Blog
+    url: "/blog"
+    type: default
+  
